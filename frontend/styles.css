@@ -1,0 +1,76 @@
+:root {
+  --bg-dark: #121212;
+  --bg-light: #ffffff;
+  --text-dark: #ffffff;
+  --text-light: #121212;
+  --accent: #00bcd4;
+}
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.light-mode {
+  background-color: var(--bg-light);
+  color: var(--text-light);
+}
+
+header {
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #333;
+}
+
+.toggle-btn {
+  cursor: pointer;
+  background: none;
+  border: 1px solid currentColor;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: inherit;
+}
+
+section {
+  padding: 4rem 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  color: var(--accent);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: none;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 0.75rem 1.5rem;
+  background-color: var(--accent);
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+}
