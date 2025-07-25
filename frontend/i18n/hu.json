@@ -1,0 +1,20 @@
+{
+  "title": "DevOps és Kiberbiztonság",
+  "about_title": "Rólam",
+  "about_desc": "DevOps mérnök vagyok, aki erősen fókuszál a kiberbiztonságra. Biztonságos, skálázható infrastruktúrákat építek, hogy növeljem a megbízhatóságot és megelőzzem a biztonsági incidenseket a modern DevSecOps gyakorlatokkal.",
+  "services_title": "Szolgáltatások",
+  "service_1": "Infrastruktúra mint kód (Terraform, Ansible)",
+  "service_2": "CI/CD automatizálás",
+  "service_3": "Felhőbiztonság (AWS/GCP/Azure)",
+  "service_4": "Konténerizáció és Kubernetes megerősítés",
+  "service_5": "Biztonsági auditok és penetrációs tesztelés",
+  "contact_title": "Kapcsolatfelvétel",
+  "form_name": "Neved",
+  "form_email": "E-mail címed",
+  "form_message": "Üzeneted",
+  "form_submit": "Üzenet küldése",
+  "form_success": "✅ Üzenet sikeresen elküldve!",
+  "form_error": "❌ Az üzenet küldése nem sikerült.",
+  "footer_title": "DevOps és Kiberbiztonság"
+}
+

@@ -1,0 +1,20 @@
+{
+  "title": "DevOps & Cybersecurity",
+  "about_title": "About Me",
+  "about_desc": "I'm a DevOps engineer with a strong focus on cybersecurity, specializing in building secure, scalable infrastructure pipelines. I help businesses improve reliability and prevent breaches with modern DevSecOps best practices.",
+  "services_title": "Services",
+  "service_1": "Infrastructure as Code (Terraform, Ansible)",
+  "service_2": "CI/CD Pipeline Automation",
+  "service_3": "Cloud Security (AWS/GCP/Azure)",
+  "service_4": "Containerization & Kubernetes Hardening",
+  "service_5": "Security Audits & Penetration Testing",
+  "contact_title": "Get in Touch",
+  "form_name": "Your Name",
+  "form_email": "Your Email",
+  "form_message": "Your Message",
+  "form_submit": "Send Message",
+  "form_success": "✅ Message sent successfully!",
+  "form_error": "❌ Failed to send message.",
+  "footer_title": "DevOps & Cybersecurity"
+}
+

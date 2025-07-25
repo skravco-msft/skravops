@@ -9,41 +9,48 @@
 </head>
 <body>
   <header>
-    <h1>DevOps & Cybersecurity</h1>
+    <h1 data-i18n="title">DevOps & Cybersecurity</h1>
     <button class="toggle-btn" onclick="toggleMode()">Toggle Theme</button>
+
+    <!-- Language Selector -->
+    <select id="language-select">
+      <option value="en">English</option>
+      <option value="hu">Magyar</option>
+      <option value="ua">Українська</option>
+    </select>
   </header>
 
   <section id="about">
-    <h2>About Me</h2>
-    <p>
+    <h2 data-i18n="about_title">About Me</h2>
+    <p data-i18n="about_desc">
       I'm a DevOps engineer with a strong focus on cybersecurity, specializing in building secure, scalable infrastructure pipelines. I help businesses improve reliability and prevent breaches with modern DevSecOps best practices.
     </p>
   </section>
 
   <section id="services">
-    <h2>Services</h2>
+    <h2 data-i18n="services_title">Services</h2>
     <ul>
-      <li>✔️ Infrastructure as Code (Terraform, Ansible)</li>
-      <li>✔️ CI/CD Pipeline Automation</li>
-      <li>✔️ Cloud Security (AWS/GCP/Azure)</li>
-      <li>✔️ Containerization & Kubernetes Hardening</li>
-      <li>✔️ Security Audits & Penetration Testing</li>
+      <li>✔️ <span data-i18n="service_1">Infrastructure as Code (Terraform, Ansible)</span></li>
+      <li>✔️ <span data-i18n="service_2">CI/CD Pipeline Automation</span></li>
+      <li>✔️ <span data-i18n="service_3">Cloud Security (AWS/GCP/Azure)</span></li>
+      <li>✔️ <span data-i18n="service_4">Containerization & Kubernetes Hardening</span></li>
+      <li>✔️ <span data-i18n="service_5">Security Audits & Penetration Testing</span></li>
     </ul>
   </section>
 
   <section id="contact">
-    <h2>Get in Touch</h2>
+    <h2 data-i18n="contact_title">Get in Touch</h2>
     <form id="contact-form">
       <input type="text" name="name" placeholder="Your Name" required />
       <input type="email" name="email" placeholder="Your Email" required />
       <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
+      <button type="submit" data-i18n="form_submit">Send Message</button>
       <p id="form-response"></p>
     </form>
   </section>
 
   <footer>
-    &copy; 2025 Your Name | DevOps & Cybersecurity
+    &copy; 2025 SKravCo | <span data-i18n="footer_title">DevOps & Cybersecurity</span>
   </footer>
 
   <script src="script.js"></script>
