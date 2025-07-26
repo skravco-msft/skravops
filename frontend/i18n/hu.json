@@ -1,20 +1,45 @@
 {
-  "title": "DevOps és Kiberbiztonság",
+  "page_title": "Független Kiberbiztonsági Tanácsadó",
+  "title": "Független Kiberbiztonsági Tanácsadó",
+  "main_title": "Független Kiberbiztonsági Tanácsadó",
+  "toggle_theme": "Téma váltása",
+
   "about_title": "Rólam",
-  "about_desc": "DevOps mérnök vagyok, aki erősen fókuszál a kiberbiztonságra. Biztonságos, skálázható infrastruktúrákat építek, hogy növeljem a megbízhatóságot és megelőzzem a biztonsági incidenseket a modern DevSecOps gyakorlatokkal.",
-  "services_title": "Szolgáltatások",
-  "service_1": "Infrastruktúra mint kód (Terraform, Ansible)",
-  "service_2": "CI/CD automatizálás",
-  "service_3": "Felhőbiztonság (AWS/GCP/Azure)",
-  "service_4": "Konténerizáció és Kubernetes megerősítés",
-  "service_5": "Biztonsági auditok és penetrációs tesztelés",
+  "about_desc": "Több mint egy évtizedes gyakorlati tapasztalattal rendelkező független kiberbiztonsági tanácsadó vagyok. Segítek a szervezeteknek megvédeni digitális eszközeiket, kockázatelemzést, behatolási tesztelést, felhőbiztonságot és testre szabott biztonsági stratégiákat nyújtva.",
+
+  "services_title": "Kiberbiztonsági Szolgáltatások",
+  "service_1": "Kockázatelemzés és fenyegetésmodellezés",
+  "service_2": "Behatolási tesztelés és sebezhetőségi vizsgálat",
+  "service_3": "Felhőbiztonsági architektúra (AWS/GCP/Azure)",
+  "service_4": "Zero Trust és hálózati szegmentálás",
+  "service_5": "Biztonságtudatossági képzés és irányelvek kidolgozása",
+  "service_6": "Incidenskezelés és digitális nyomozás",
+
+  "certifications_title": "Tanúsítványok",
+  "cert_1": "Etikus Hacker Tanúsítvány (CEH)",
+  "cert_2": "Offenzív Biztonsági Tanúsított Szakember (OSCP)",
+  "cert_3": "Tanúsított Információbiztonsági Szakember (CISSP)",
+  "cert_4": "AWS Biztonsági Tanúsítvány – Specialista",
+
+  "testimonials_title": "Ügyfelek Véleménye",
+  "testimonial_1": "Rendkívül profi és hozzáértő. Segített azonosítani a kritikus kockázatokat és javítani a biztonsági szintünket.",
+  "testimonial_author_1": "— CTO, Fintech Startup",
+  "testimonial_2": "A legjobb befektetés volt tavaly. Az auditálástól a megvalósításig minden zökkenőmentes volt.",
+  "testimonial_author_2": "— IT Igazgató, Egészségügyi Tech Cég",
+
+  "clients_title": "Ügyfelek, akik megbíznak bennem",
+
   "contact_title": "Kapcsolatfelvétel",
   "form_name": "Neved",
-  "form_email": "E-mail címed",
+  "form_email": "Email címed",
   "form_message": "Üzeneted",
   "form_submit": "Üzenet küldése",
   "form_success": "✅ Üzenet sikeresen elküldve!",
-  "form_error": "❌ Az üzenet küldése nem sikerült.",
-  "footer_title": "DevOps és Kiberbiztonság"
+  "form_error": "❌ Nem sikerült elküldeni az üzenetet.",
+  "form_name_placeholder": "Neved",
+  "form_email_placeholder": "Email címed",
+  "form_message_placeholder": "Üzeneted",
+
+  "footer_text": "Független Kiberbiztonsági Tanácsadó"
 }
 

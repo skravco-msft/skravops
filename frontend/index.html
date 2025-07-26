@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>DevOps & Cybersecurity Expert</title>
+  <title data-i18n="page_title">Independent Cybersecurity Consultant</title>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
-    <h1 data-i18n="title">DevOps & Cybersecurity</h1>
-    <button class="toggle-btn" onclick="toggleMode()">Toggle Theme</button>
+    <h1 data-i18n="main_title">Independent Cybersecurity Consultant</h1>
+    <button class="toggle-btn" onclick="toggleMode()" data-i18n="toggle_theme">Toggle Theme</button>
 
     <!-- Language Selector -->
-    <select id="language-select">
+    <select id="language-select" aria-label="Language Selector">
       <option value="en">English</option>
       <option value="hu">Magyar</option>
       <option value="ua">Українська</option>
@@ -23,34 +23,69 @@
   <section id="about">
     <h2 data-i18n="about_title">About Me</h2>
     <p data-i18n="about_desc">
-      I'm a DevOps engineer with a strong focus on cybersecurity, specializing in building secure, scalable infrastructure pipelines. I help businesses improve reliability and prevent breaches with modern DevSecOps best practices.
+      I'm an independent cybersecurity consultant with over a decade of hands-on experience helping organizations secure their digital assets. I specialize in risk assessment, penetration testing, cloud security, and implementing end-to-end security strategies tailored to your business needs.
     </p>
   </section>
 
   <section id="services">
-    <h2 data-i18n="services_title">Services</h2>
+    <h2 data-i18n="services_title">Cybersecurity Services</h2>
     <ul>
-      <li>✔️ <span data-i18n="service_1">Infrastructure as Code (Terraform, Ansible)</span></li>
-      <li>✔️ <span data-i18n="service_2">CI/CD Pipeline Automation</span></li>
-      <li>✔️ <span data-i18n="service_3">Cloud Security (AWS/GCP/Azure)</span></li>
-      <li>✔️ <span data-i18n="service_4">Containerization & Kubernetes Hardening</span></li>
-      <li>✔️ <span data-i18n="service_5">Security Audits & Penetration Testing</span></li>
+      <li>✔️ <span data-i18n="service_1">Risk Assessments & Threat Modeling</span></li>
+      <li>✔️ <span data-i18n="service_2">Penetration Testing & Vulnerability Scanning</span></li>
+      <li>✔️ <span data-i18n="service_3">Cloud Security Architecture (AWS/GCP/Azure)</span></li>
+      <li>✔️ <span data-i18n="service_4">Zero Trust & Network Segmentation Strategies</span></li>
+      <li>✔️ <span data-i18n="service_5">Security Awareness Training & Policy Development</span></li>
+      <li>✔️ <span data-i18n="service_6">Incident Response Planning & Forensics</span></li>
     </ul>
   </section>
 
+  <section id="certifications">
+    <h2 data-i18n="certifications_title">Certifications</h2>
+    <ul>
+      <li>🎓 <span data-i18n="cert_1">Certified Ethical Hacker (CEH)</span></li>
+      <li>🎓 <span data-i18n="cert_2">Offensive Security Certified Professional (OSCP)</span></li>
+      <li>🎓 <span data-i18n="cert_3">Certified Information Systems Security Professional (CISSP)</span></li>
+      <li>🎓 <span data-i18n="cert_4">AWS Certified Security – Specialty</span></li>
+    </ul>
+  </section>
+
+  <section id="testimonials">
+    <h2 data-i18n="testimonials_title">What Clients Say</h2>
+    <blockquote data-i18n="testimonial_1">
+      "Extremely professional and knowledgeable. Helped us identify critical risks and improve our entire security posture."
+    </blockquote>
+    <p><em data-i18n="testimonial_author_1">— CTO, Fintech Startup</em></p>
+
+    <blockquote data-i18n="testimonial_2">
+      "The best investment we made last year. From audit to implementation, everything was handled flawlessly."
+    </blockquote>
+    <p><em data-i18n="testimonial_author_2">— Director of IT, HealthTech Company</em></p>
+  </section>
+
+  <section id="clients">
+    <h2 data-i18n="clients_title">Trusted By</h2>
+    <div class="client-logos">
+      <!-- Replace with actual logos -->
+      <img src="images/client1-logo.png" alt="Client 1 Logo" />
+      <img src="images/client2-logo.png" alt="Client 2 Logo" />
+      <img src="images/client3-logo.png" alt="Client 3 Logo" />
+      <img src="images/client4-logo.png" alt="Client 4 Logo" />
+    </div>
+  </section>
+
   <section id="contact">
-    <h2 data-i18n="contact_title">Get in Touch</h2>
+    <h2 data-i18n="contact_title">Contact Me</h2>
     <form id="contact-form">
-      <input type="text" name="name" placeholder="Your Name" required />
-      <input type="email" name="email" placeholder="Your Email" required />
-      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <input type="text" name="name" placeholder="Your Name" required data-i18n-placeholder="form_name_placeholder" />
+      <input type="email" name="email" placeholder="Your Email" required data-i18n-placeholder="form_email_placeholder" />
+      <textarea name="message" rows="5" placeholder="Your Message" required data-i18n-placeholder="form_message_placeholder"></textarea>
       <button type="submit" data-i18n="form_submit">Send Message</button>
       <p id="form-response"></p>
     </form>
   </section>
 
   <footer>
-    &copy; 2025 SKravCo | <span data-i18n="footer_title">DevOps & Cybersecurity</span>
+    &copy; 2025 SKravCo | <span data-i18n="footer_text">Independent Cybersecurity Consultant</span>
   </footer>
 
   <script src="script.js"></script>
