@@ -1,20 +1,59 @@
-# Python
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# Environment variables
-backend/.env
+# Local Azure Functions settings (contains secrets)
+api/local.settings.json
+
+# VS Code settings (if using)
+.vscode/
+
+# Node modules (if you use npm packages later)
+node_modules/
 
 # Logs
 *.log
 
-# Node modules 
-node_modules/
-
-# macOS and Windows system files
+# OS-generated files
 .DS_Store
 Thumbs.db
 
-# Optional: VSCode settings 
-.vscode/
+# Environment files (if added)
+.env
+
+# Build output or temporary files
+dist/
+build/
+*.tmp
+*.bak
+
+# Frontend dependency lockfiles (optional, if you don't want to track them)
+# package-lock.json
+# yarn.lock
+
+# Optional: ignore Python virtual environments
+venv/
+.env/
+env/
+
+# Optional: ignore coverage reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+
+# Optional: PyInstaller
+*.spec
+
+# Optional: test outputs
+test-output/
+junit-*.xml
+
+# Optional: static web app configuration cache
+*.swacache
+
+# Ignore macOS ._ files
+._*
 
